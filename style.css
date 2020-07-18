@@ -1,0 +1,87 @@
+.topnav{
+    overflow: hidden;
+    background: none;
+}
+.topnav-right{
+    float: right;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover{
+    background-color: #BDBDBD; 
+    color: whitesmoke;
+}
+.topnav a.active{
+    text-decoration: dotted;
+}
+
+.stripe-bg-color{
+    background-color: white;
+    background-image: -webkit-linear-gradient(20deg,white 50%,#E3C386 50%);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 10% 30% 60%;
+    margin-top: 6rem;
+}
+.human{
+    padding-top: 1rem;
+}
+.grid-left{
+    padding: 2rem;
+    margin-top: 8rem;
+    text-align: justify;
+    text-decoration: none;
+    display: block;
+
+}
+.left-side-grid {
+    padding: 0px;
+    border-radius: 5px;
+    margin-top: 7rem;
+}
+
+.grid-right{
+    padding-left: 0px;
+    padding-right: 3rem;
+    text-decoration: none;
+}
+.grid-middle{
+    margin-top: 8rem;
+    padding: 3rem;
+    text-align: left;
+    text-decoration: none;  
+
+}
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+button {
+    background-color: #3B7282;
+    border: none;
+    color: white;
+    padding: 4px 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 {
+    border-radius: 15px;
+}
+
